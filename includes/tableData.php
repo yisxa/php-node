@@ -41,25 +41,6 @@
 
            ?>
 
-	<!--		<tr>
-          <td>2</td>
-            <td>Lois</td>
-            <td>Griffin</td>
-            <td>98307</td>
-          </tr>
-          <tr>
-			<td>3</td>
-            <td>Joe</td>
-            <td>Swanson</td>
-            <td>98308</td>
-          </tr>
-          <tr>
-			<td>4</td>
-            <td>Cleveland</td>
-            <td>Brown</td>
-            <td>98309</td>
-          </tr>
-        -->
         </table>
        </div>
 </main>
