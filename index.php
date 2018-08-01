@@ -17,6 +17,10 @@ if(isset($_POST['Submit'])){
 
 require_once './includes/db_connect.php';
 
+require_once('./includes/counter.php');
+
+updateCounter("index.php"); // mention the page which u want to count for Updates page hits
+updateInfo(); // Updates hit info
 ?>
 
 <!DOCTYPE html>
@@ -50,7 +54,7 @@ require_once './includes/db_connect.php';
    include './includes/tableData.php';
     echo "<br> <br> <br>"; //line break after table
     
-  //including caotcha table
+  //including captcha table
     include './includes/captchaTable.php';
     echo "<br> <br> <br>"; //line break after table
     
